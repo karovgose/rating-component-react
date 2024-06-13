@@ -1,11 +1,4 @@
-export default function Star({
-  onRate,
-  full,
-  onHoverIn,
-  onHoverOut,
-  color,
-  size,
-}) {
+export default function Star({ onRate, full, onHoverIn, onHoverOut }) {
   return (
     <span
       role="button"
